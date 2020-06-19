@@ -24,7 +24,7 @@ from .training_mixins import (
 )
 
 # from .gplvm import PCA_reduce
-from .sgpmc import SGPMC
+from .sgpmc import SGPMC, SSGPMC, SGLD
 from .sgpr import GPRFITC, SGPR
 from .svgp import SVGP
 from .vgp import VGP, VGPOpperArchambeau
